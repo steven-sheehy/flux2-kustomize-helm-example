@@ -20,6 +20,8 @@ spec:
   # https://github.com/stefanprodan/podinfo/blob/master/charts/podinfo/values.yaml
   values:
     cache: redis-master.redis:6379
+    image:
+      tag: 5.1.0
     ingress:
       enabled: true
       annotations:
