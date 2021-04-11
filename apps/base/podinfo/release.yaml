@@ -21,7 +21,7 @@ spec:
   values:
     cache: redis-master.redis:6379
     image:
-      tag: 5.2.0
+      tag: 5.1.0
     ingress:
       enabled: true
       annotations:
